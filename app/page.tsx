@@ -16,6 +16,7 @@ import { Testimonials } from "../components/Testimonials";
 import Pricing from "../components/Pricing";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import { HowItWorks } from "../components/HowItWorks";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -244,6 +245,7 @@ export default function HomePage() {
         </motion.div>
       </section>
       <Features />
+      <HowItWorks />
       <Testimonials />
       <Pricing />
       <Contact />
